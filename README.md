@@ -11,10 +11,16 @@ use(play) [itamae-kitchen/itamae](https://github.com/itamae-kitchen/itamae)
 
 ## Usage
 
-## Installation
+### Installation
 ```bash
 $ git clone git@github.com:to4iki/itamae-sandbox.git
 $ bundle
+```
+
+### Execute
+```bash
+# --log-level=debug
+$ bundle exec itamae ssh --vagrant -j nodes/node.json recipes/ruby_build.rb
 ```
 
 ## Licence
