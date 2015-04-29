@@ -23,6 +23,12 @@ $ bundle
 $ bundle exec itamae ssh --vagrant -j nodes/node.json recipes/ruby_build.rb
 ```
 
+### spec
+see also: [Serverspec で rbenv と Ruby のインストールをテスト | EasyRamble](http://easyramble.com/serverspec-for-rbenv-ruby.html)
+```bash
+$ bundle exec rake spec
+```
+
 ## Licence
 
 [MIT](https://github.com/to4iki/itamae-sandbox/master/LICENSE)
